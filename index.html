@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="position-relative mt-5">
+
+    <container class="container border border-primary d-flex mb-2 p-5 bg-info-subtle gap-5">
+        <box1 class="w-50 h-50 d-flex flex-column justify-content-center align-items-center gap-5 bg-success-subtle pt-3 pb-3">
+            <img src="" alt="Profile-Image" width="200px" height="200px" id="image" class="rounded-circle">
+            <h6><span id="name"></span> </h6>
+        </box1>
+
+        <box2 class="w-50">
+            <h6>Followers: <span id="followers" class="fw-light"></span></h6>
+            <h6>Following: <span id="followings" class="fw-light"></span></h6>
+            <h6>Bio: <span id="bio" class="fw-light"></span></h6>
+            <h6>Public Repositories: <span id="repo" class="fw-light"></span></h6>
+            <h6>All Public Repos:<br> <span id="repourl" class="fw-light" ></span></h6>
+
+        </box2>
+
+    </container>
+
+    <search-op class=" pt-2 pb-2 d-flex justify-content-center">
+
+        <input type="search" name="initial-scale" placeholder="search user" id="input">
+
+        <button id="ref">Refresh</button>
+    </search-op>
+    <msg id="msg">
+
+    </msg>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
